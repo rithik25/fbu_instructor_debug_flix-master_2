@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/title_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/mustard"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        tools:text="Venom" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:numStars="10"
+        android:rating="0" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:text="Rate:" />
+
+    <TextView
+        android:id="@+id/overview_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:text="Eddie Brock etc etc" />
+
+    <TextView
+        android:id="@+id/date_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/mustard"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:text="Release Date: " />
+
+</LinearLayout>

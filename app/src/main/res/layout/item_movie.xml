@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout_port"
+    android:layout_width="0px"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="17dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="14dp"
+        android:text="Aquaman"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvTitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="@color/yellow"
+        android:textStyle="bold|italic"
+        tools:text="Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world." />
+
+    <ImageView
+        android:id="@+id/play_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/ivPoster"
+        android:layout_alignTop="@+id/ivPoster"
+        android:layout_alignEnd="@+id/ivPoster"
+        android:layout_alignBottom="@+id/ivPoster"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="34dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_play_icon_fill" />
+
+</RelativeLayout>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="navy">#2465bc</color>
+    <color name="dark_navy">#463e82</color>
+    <color name="darkest_blue">#4b4769</color>
+
+    <color name="dark_red">#bd2534</color>
+    <color name="burgundy">#a3414a</color>
+
+    <color name="mustard">#e8e000</color>
+    <color name="yellow">#EFF751</color>
+
+</resources>
